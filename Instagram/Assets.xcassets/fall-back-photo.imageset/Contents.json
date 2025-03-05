@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "fall-back-photo.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
