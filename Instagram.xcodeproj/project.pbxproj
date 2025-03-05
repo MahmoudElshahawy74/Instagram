@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		5BB3615C2D76348700139676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3615B2D76348700139676 /* AppDelegate.swift */; };
 		5BB3615E2D76348700139676 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3615D2D76348700139676 /* SceneDelegate.swift */; };
-		5BB361602D76348700139676 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3615F2D76348700139676 /* ViewController.swift */; };
-		5BB361632D76348700139676 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5BB361622D76348700139676 /* Base */; };
 		5BB361652D76349000139676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB361642D76349000139676 /* Assets.xcassets */; };
 		5BB361682D76349000139676 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5BB361672D76349000139676 /* Base */; };
+		5BB361742D76384700139676 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB361732D76384700139676 /* User.swift */; };
+		5BB361762D763A4400139676 /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB361752D763A4400139676 /* Albums.swift */; };
+		5BB3617D2D7716A800139676 /* InstagramAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3617C2D7716A800139676 /* InstagramAPI.swift */; };
+		5BB3617F2D7716E300139676 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3617E2D7716E300139676 /* NetworkManager.swift */; };
+		5BB361822D77176000139676 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB361812D77176000139676 /* ProfileViewModel.swift */; };
+		5BB361842D77179A00139676 /* AlbumDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB361832D77179A00139676 /* AlbumDetailsViewModel.swift */; };
+		5BB361872D7717D100139676 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB361862D7717D100139676 /* AppRouter.swift */; };
+		5BB361892D7717FD00139676 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB361882D7717FD00139676 /* ProfileViewController.swift */; };
+		5BB3618B2D77185300139676 /* AlbumDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3618A2D77185300139676 /* AlbumDetailsViewController.swift */; };
+		5BB3618E2D7718DA00139676 /* CollectionViewPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3618D2D7718DA00139676 /* CollectionViewPhotoCell.swift */; };
+		5BB361912D771F0200139676 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 5BB361902D771F0200139676 /* CombineMoya */; };
+		5BB361932D771F0200139676 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 5BB361922D771F0200139676 /* Moya */; };
+		5BB361952D771F0200139676 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 5BB361942D771F0200139676 /* ReactiveMoya */; };
+		5BB361972D771F0200139676 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 5BB361962D771F0200139676 /* RxMoya */; };
+		5BB3619A2D77219F00139676 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5BB361992D77219F00139676 /* SDWebImage */; };
+		5BB3619C2D77219F00139676 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5BB3619B2D77219F00139676 /* SDWebImageMapKit */; };
+		5BB3619E2D7726E900139676 /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3619D2D7726E900139676 /* ImageViewerViewController.swift */; };
+		5BC13B722D78FD2C00F29E2B /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC13B712D78FD2C00F29E2B /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BB361582D76348700139676 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB3615B2D76348700139676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BB3615D2D76348700139676 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BB3615F2D76348700139676 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5BB361622D76348700139676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BB361642D76349000139676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BB361672D76349000139676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BB361692D76349000139676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB361732D76384700139676 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5BB361752D763A4400139676 /* Albums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
+		5BB3617C2D7716A800139676 /* InstagramAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramAPI.swift; sourceTree = "<group>"; };
+		5BB3617E2D7716E300139676 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5BB361812D77176000139676 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		5BB361832D77179A00139676 /* AlbumDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewModel.swift; sourceTree = "<group>"; };
+		5BB361862D7717D100139676 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		5BB361882D7717FD00139676 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5BB3618A2D77185300139676 /* AlbumDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewController.swift; sourceTree = "<group>"; };
+		5BB3618D2D7718DA00139676 /* CollectionViewPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewPhotoCell.swift; sourceTree = "<group>"; };
+		5BB3619D2D7726E900139676 /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
+		5BC13B712D78FD2C00F29E2B /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB361932D771F0200139676 /* Moya in Frameworks */,
+				5BB361912D771F0200139676 /* CombineMoya in Frameworks */,
+				5BB361972D771F0200139676 /* RxMoya in Frameworks */,
+				5BB361952D771F0200139676 /* ReactiveMoya in Frameworks */,
+				5BB3619C2D77219F00139676 /* SDWebImageMapKit in Frameworks */,
+				5BB3619A2D77219F00139676 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +88,105 @@
 		5BB3615A2D76348700139676 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				5BC13B662D77A98D00F29E2B /* Profile */,
+				5BC13B672D77A99B00F29E2B /* Album */,
+				5BB361852D7717BA00139676 /* Router */,
+				5BB3617B2D7715F600139676 /* Network */,
 				5BB3615B2D76348700139676 /* AppDelegate.swift */,
 				5BB3615D2D76348700139676 /* SceneDelegate.swift */,
-				5BB3615F2D76348700139676 /* ViewController.swift */,
-				5BB361612D76348700139676 /* Main.storyboard */,
 				5BB361642D76349000139676 /* Assets.xcassets */,
 				5BB361662D76349000139676 /* LaunchScreen.storyboard */,
 				5BB361692D76349000139676 /* Info.plist */,
 			);
 			path = Instagram;
+			sourceTree = "<group>";
+		};
+		5BB3617B2D7715F600139676 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5BB3617C2D7716A800139676 /* InstagramAPI.swift */,
+				5BB3617E2D7716E300139676 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5BB361852D7717BA00139676 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5BB361862D7717D100139676 /* AppRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5BC13B662D77A98D00F29E2B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5BC13B6D2D77AA4400F29E2B /* Model */,
+				5BC13B6C2D77AA3F00F29E2B /* View */,
+				5BC13B6B2D77AA3700F29E2B /* ViewModel */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5BC13B672D77A99B00F29E2B /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				5BC13B682D77A9C000F29E2B /* Model */,
+				5BC13B6A2D77A9FA00F29E2B /* View */,
+				5BC13B692D77A9C700F29E2B /* ViewModel */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		5BC13B682D77A9C000F29E2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BB361732D76384700139676 /* User.swift */,
+				5BB361752D763A4400139676 /* Albums.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BC13B692D77A9C700F29E2B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BB361832D77179A00139676 /* AlbumDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5BC13B6A2D77A9FA00F29E2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BB3618A2D77185300139676 /* AlbumDetailsViewController.swift */,
+				5BB3618D2D7718DA00139676 /* CollectionViewPhotoCell.swift */,
+				5BB3619D2D7726E900139676 /* ImageViewerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BC13B6B2D77AA3700F29E2B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BB361812D77176000139676 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5BC13B6C2D77AA3F00F29E2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BB361882D7717FD00139676 /* ProfileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BC13B6D2D77AA4400F29E2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BC13B712D78FD2C00F29E2B /* Photo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +205,14 @@
 			dependencies = (
 			);
 			name = Instagram;
+			packageProductDependencies = (
+				5BB361902D771F0200139676 /* CombineMoya */,
+				5BB361922D771F0200139676 /* Moya */,
+				5BB361942D771F0200139676 /* ReactiveMoya */,
+				5BB361962D771F0200139676 /* RxMoya */,
+				5BB361992D77219F00139676 /* SDWebImage */,
+				5BB3619B2D77219F00139676 /* SDWebImageMapKit */,
+			);
 			productName = Instagram;
 			productReference = 5BB361582D76348700139676 /* Instagram.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +241,10 @@
 				Base,
 			);
 			mainGroup = 5BB3614F2D76348700139676;
+			packageReferences = (
+				5BB3618F2D771C7200139676 /* XCRemoteSwiftPackageReference "Moya" */,
+				5BB361982D77219F00139676 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 5BB361592D76348700139676 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +261,6 @@
 			files = (
 				5BB361652D76349000139676 /* Assets.xcassets in Resources */,
 				5BB361682D76349000139676 /* Base in Resources */,
-				5BB361632D76348700139676 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +271,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BB361602D76348700139676 /* ViewController.swift in Sources */,
+				5BC13B722D78FD2C00F29E2B /* Photo.swift in Sources */,
 				5BB3615C2D76348700139676 /* AppDelegate.swift in Sources */,
+				5BB361842D77179A00139676 /* AlbumDetailsViewModel.swift in Sources */,
+				5BB3619E2D7726E900139676 /* ImageViewerViewController.swift in Sources */,
+				5BB361762D763A4400139676 /* Albums.swift in Sources */,
+				5BB361742D76384700139676 /* User.swift in Sources */,
+				5BB3617F2D7716E300139676 /* NetworkManager.swift in Sources */,
 				5BB3615E2D76348700139676 /* SceneDelegate.swift in Sources */,
+				5BB361892D7717FD00139676 /* ProfileViewController.swift in Sources */,
+				5BB3617D2D7716A800139676 /* InstagramAPI.swift in Sources */,
+				5BB361822D77176000139676 /* ProfileViewModel.swift in Sources */,
+				5BB3618E2D7718DA00139676 /* CollectionViewPhotoCell.swift in Sources */,
+				5BB361872D7717D100139676 /* AppRouter.swift in Sources */,
+				5BB3618B2D77185300139676 /* AlbumDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5BB361612D76348700139676 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BB361622D76348700139676 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5BB361662D76349000139676 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +433,6 @@
 				INFOPLIST_FILE = Instagram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +460,6 @@
 				INFOPLIST_FILE = Instagram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +497,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5BB3618F2D771C7200139676 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		5BB361982D77219F00139676 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5BB361902D771F0200139676 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BB3618F2D771C7200139676 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		5BB361922D771F0200139676 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BB3618F2D771C7200139676 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		5BB361942D771F0200139676 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BB3618F2D771C7200139676 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		5BB361962D771F0200139676 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BB3618F2D771C7200139676 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		5BB361992D77219F00139676 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BB361982D77219F00139676 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		5BB3619B2D77219F00139676 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BB361982D77219F00139676 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5BB361502D76348700139676 /* Project object */;
 }
